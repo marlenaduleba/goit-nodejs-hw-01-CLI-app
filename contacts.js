@@ -40,7 +40,7 @@ async function removeContact(contactId) {
     );
     await fs.writeFile(contactsPath, JSON.stringify(remainingContacts));
     console.log("Contact removed succesfully.");
-    return contactToDelete;
+    return remainingContacts;
   } catch (error) {
     console.log("Error writing contacts file:", error);
   }
@@ -54,7 +54,7 @@ async function addContact(name, email, phone) {
 
     await fs.writeFile(contactsPath, JSON.stringify(contacts));
     console.log("Contact added successfully.");
-    return newContact;
+    return contacts;
   } catch (error) {
     console.log("Error writing contacts file:", error);
   }
