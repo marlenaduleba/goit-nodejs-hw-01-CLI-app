@@ -2,16 +2,16 @@
 
 Receive and output the entire contact list as a table (console.table)  
 **node index.js --action list**  
-https://monosnap.com/file/zmw0GtNKqvLUb5z41ilGi1ojfCqHFg
+<a href="https://monosnap.com/file/zmw0GtNKqvLUb5z41ilGi1ojfCqHFg" target="_blank" >All contacts</a>
 
 Get contact by id  
 **node index.js --action get --id 05olLMgyVQdWRwgKfg5J6**    
-https://monosnap.com/file/uUeHnoNAkl3vfEC1Z1ZjYJEm9N0kQW
+<a href="https://monosnap.com/file/uUeHnoNAkl3vfEC1Z1ZjYJEm9N0kQW" target="_blank" >Get contact</a>
 
 Add contact  
 **node index.js --action add --name Mango --email mango@<!-- -->gmail.com --phone 322-22-22**  
-https://monosnap.com/file/VOXmIkekGQsUG6YxYlwvzljCogXcCM
+<a href="https://monosnap.com/file/VOXmIkekGQsUG6YxYlwvzljCogXcCM" target="_blank" >Add contact</a>
 
 Remove contact  
 **node index.js --action remove --id qdggE76Jtbfd9eWJHrssH**  
-https://monosnap.com/file/9SUZ3rdXKTyfHt15WZPrStiI2tRmVQ
+<a href="https://monosnap.com/file/9SUZ3rdXKTyfHt15WZPrStiI2tRmVQ" target="_blank" >Remove contact</a>
